@@ -222,6 +222,7 @@ footer a {
 }
 
 section dt{
+  display: inline-block;
   margin: 10px;
   margin-top: 30px;
   color: #3B82F6;
@@ -229,8 +230,7 @@ section dt{
   padding: 5px;    
   padding-left: 20px;  
   padding-right: 20px;        
-  border-radius: 8px;       
-  width: fit-content;
+  border-radius: 8px;     
 }
 
 section dd{
