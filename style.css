@@ -1,23 +1,25 @@
 *, *::before, *::after {
   box-sizing: border-box;
-}html, body {
+}
+
+html, body {
   margin: 0;
   padding: 0;
   height: 100%;
 }
 
-
-
+html a:hover {
+  text-decoration: underline;
+}
 
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 35px;
+  font-family: Arial, sans-serif;
 }
-
 
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
   background-color: #1a2638;
   color: #F1F5F9;
   overflow-x: auto; 
@@ -40,9 +42,9 @@ aside {
   padding-top: 20px;
 }
 
-aside h2 {
+aside h1 {
   font-family: 'Times New Roman', Times, serif;
-  font-size: 24px;
+  font-size: 28px;
   margin-bottom: 40px;
   text-align: center;
 }
@@ -61,10 +63,6 @@ aside p {
 aside a {
   color: #3B82F6;
   text-decoration: none;
-}
-
-aside a:hover {
-  text-decoration: underline;
 }
 
 .outerBorder {
@@ -151,7 +149,7 @@ main {
   min-width: 0; 
 }
 
-h5 {
+h2 {
   font-size: 28px;
   margin-top: 40px;
   margin-bottom: 20px;
@@ -159,12 +157,11 @@ h5 {
   border-bottom: 2px solid #3b83f6be;
   font-family: 'Times New Roman', Times, serif;
 
-}h6 {
+}h4 {
   font-size: 22px;
   margin-top: 40px;
   margin-bottom: 10px;
   color: #F1F5F9;
-  font-family: 'Times New Roman', Times, serif;
 }
 
 section a {
@@ -208,6 +205,10 @@ footer {
   position: static;
 }
 
+h5{
+  font-size: 16px;
+}
+
 footer .contact-info {
   display: flex;
   justify-content: center;
@@ -220,6 +221,19 @@ footer a {
   text-decoration: none;
 }
 
-footer a:hover {
-  text-decoration: underline;
+section dt{
+  margin: 10px;
+  margin-top: 30px;
+  color: #3B82F6;
+  border: 2px solid #3b83f68a; 
+  padding: 5px;    
+  padding-left: 20px;  
+  padding-right: 20px;        
+  border-radius: 8px;       
+  width: fit-content;
+}
+
+section dd{
+  margin: 10px;
+  margin-left: 20px;
 }
