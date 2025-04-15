@@ -158,6 +158,13 @@ h5 {
   color: #3B82F6;
   border-bottom: 2px solid #3b83f6be;
   font-family: 'Times New Roman', Times, serif;
+
+}h6 {
+  font-size: 22px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  color: #F1F5F9;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 main p{
