@@ -49,7 +49,7 @@ style.css
 - [LinkedIn](https://www.linkedin.com/in/urieljaloto)
 - [GitHub](https://github.com/UrielJaloto)
 - suporteurieljaloto@gmail.com
-- 📱 +55 (48) 98858-4981
+- +55 (48) 98858-4981
 
 ---
 
