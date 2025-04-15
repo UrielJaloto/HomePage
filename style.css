@@ -2,26 +2,62 @@ body {
   display: flex;
   margin: 0;
   font-family: Arial, sans-serif;
+  background-color: #0F172A;
+  color: #F1F5F9;
 }
 
-aside img {
-  width: 100%;
-  border-radius: 50%;
-  margin-bottom: 15px;
+.img-wrapper1 {
+  display: inline-flex;            
+  justify-content: center;
+  align-items: center;
+
+  padding: 5px;                    
+  border-radius: 50%;             
+  background-color: #3b83f6a2;     
+  box-sizing: content-box;
 }
+
+.img-wrapper2 {
+  display: inline-flex;            
+  justify-content: center;
+  align-items: center;
+
+  padding: 10px;                    
+  border-radius: 50%;             
+  background-color: #1C2431;     
+  box-sizing: content-box;
+}
+
+.img-wrapper1 img {
+  display: block;
+  border-radius: 50%;            
+  object-fit: cover;            
+  height: auto;
+  width: auto;
+  max-width: 100%;
+}
+
 
 aside {
   width: 300px;
   padding: 20px;
-  background-color: #f0f0f0;
-  border-right: 2px solid #ccc;
+  background-color: #1C2431;
+  border-right: 2px solid #3b83f696;
   height: 100vh;
   box-sizing: border-box;
 }
 
-aside :is(h2, h3, h4, h5, h6) {
-  font-size: 16px;
-  margin-bottom: 4px;
+aside h2 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 24px;
+  margin-bottom: 60px;
+  line-height: 1.2;
+}
+
+aside h3 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 21px;
+  margin-bottom: 0px;
   line-height: 1.2;
 }
 
@@ -32,7 +68,7 @@ aside p {
 }
 
 aside a {
-  color: #0066cc;
+  color: #3B82F6;
   text-decoration: none;
 }
 
