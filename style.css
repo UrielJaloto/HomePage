@@ -167,6 +167,16 @@ h5 {
   font-family: 'Times New Roman', Times, serif;
 }
 
+section a {
+  color: #3B82F6;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+section a:hover {
+  text-decoration: underline;
+}
+
 main p{
   font-size: 18px;
   margin: 10px;
@@ -183,7 +193,9 @@ main li{
   color: #F1F5F9;
 }
 
-
+#education p{
+  margin-bottom: 30px;
+} 
 
 footer {
   background-color: #1C2431;
