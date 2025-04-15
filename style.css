@@ -4,6 +4,12 @@ html, body {
   height: 100%;
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 35px;
+}
+
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -26,6 +32,7 @@ aside {
   border-right: 2px solid #3b83f696;
   min-height: 100vh;
   box-sizing: border-box;
+  padding-top: 20px;
 }
 
 aside h2 {
@@ -38,7 +45,8 @@ aside h2 {
 aside h3 {
   font-family: 'Times New Roman', Times, serif;
   font-size: 19px;
-  margin-top: 20px;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 aside p {
@@ -88,11 +96,81 @@ aside a:hover {
   min-height: 100vh;
 }
 
+header {
+  width: 100%;
+  background-color: #1c2431c2;
+  border-bottom: 2px solid #3b83f696;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+section{
+  scroll-margin-top: 35px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  padding: 15px 20px;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list li a {
+  color: #F1F5F9;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+  transition: color 0.3s;
+}
+
+.nav-list li a:hover {
+  color: #3B82F6;
+}
+
 main {
   flex: 1;
-  padding: 40px;
+  padding: 20px;
+  margin-top: -20px;
+  padding-top: 0px;
   overflow-y: auto;
 }
+
+h5 {
+  font-size: 28px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: #3B82F6;
+  border-bottom: 2px solid #3b83f6be;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+main p{
+  font-size: 18px;
+  margin: 10px;
+  line-height: 1.8;
+  text-align: justify;
+  color: #F1F5F9;
+}
+
+main li{
+  font-size: 18px;
+  line-height: 1.8;
+  margin: 0px;
+  text-align: justify;
+  color: #F1F5F9;
+}
+
+
 
 footer {
   background-color: #1C2431;
@@ -102,6 +180,7 @@ footer {
   margin-top: auto;
   width: 100%;
   border-top: 2px solid #3b83f649;
+  position: static;
 }
 
 footer .contact-info {
